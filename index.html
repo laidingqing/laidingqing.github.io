@@ -41,106 +41,25 @@ layout: default
 
   <section>
       <header class="major">
-          <h2>Online Education</h2>
+          <h2>Java/Scala/Go微服务入门课堂</h2>
       </header>
 
       <div class="row">
           <article class="12u 12u(small)">
-              <h2 class="major">University of California, San Diego on Coursera</h2>
+              <h2 class="major">了解微服务技术架构，落地开发现实项目</h2>
               <ul>
                   <li>Learning How to Learn</li>
               </ul>
           </article>
           <article class="12u 12u(small)">
-              <h2 class="major">
-                <a href="https://coursera.org/verify/specialization/UX3E8P6UXYBH">
-                  University of Alberta: Software Product Management Specialization</a> on Coursera</h2>
+              <h2 class="major">前言: 微服务架构基础</h2>
               <ul class="toggler">
-                  <li><a href="https://coursera.org/verify/RJMWMM6PJB7E">Introduction to Software Product Management</a></li>
-                  <li><a href="https://coursera.org/verify/BQ8EAAYEE2JW">Software Processes and Agile Practices</a></li>
-                  <li><a href="https://coursera.org/verify/CBC5QLHUCBY5">Client Needs and Software Requirements</a></li>
-                  <li><a href="https://coursera.org/verify/H33XQEYH6RPP">Agile Planning for Software Products</a></li>
-                  <li><a href="https://coursera.org/verify/C7Y9NSC2A7HR">Reviews &amp; Metrics for Software Improvements</a></li>
-                  <li><a href="https://coursera.org/verify/TTCM5EZR8H3S">Software Product Management Capstone</a></li>
+                  <li><a href="#">第一课：什么是微服务，微服务架构又是什么？</a></li>
+                  <li><a href="#">第二课：微服务架构的基本特征？</a></li>
+                  <li><a href="#">第三课：谁都在实施微服务，他们的架构，技术栈？</a></li>
+                  <li><a href="#">第四课：Spring、Scala、Go的微服务选择？</a></li>
               </ul>
           </article>
       </div>
   </section>
-
-  <section>
-      <header class="major">
-          <h2>Projects</h2>
-      </header>
-
-      <div class="row">
-          <article class="12u 12u(small)">
-              <ul>
-                  <li>
-                    <div class="git-star"><a class="github-button" href="https://github.com/tamtamchik/simple-flash" data-icon="octicon-star" data-count-href="/tamtamchik/simple-flash/stargazers" data-count-api="/repos/tamtamchik/simple-flash#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star tamtamchik/simple-flash on GitHub">Star</a></div>
-                    <a href="https://github.com/tamtamchik/simple-flash">Simple Flash</a>
-                    - Easy, framework agnostic flash notifications for PHP.
-                  </li>
-                  <li>
-                    <div class="git-star"><a class="github-button" href="https://github.com/tamtamchik/namecase" data-icon="octicon-star" data-count-href="/tamtamchik/namecase/stargazers" data-count-api="/repos/tamtamchik/namecase#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star tamtamchik/namecase on GitHub">Star</a></div>
-                    <a href="https://github.com/tamtamchik/namecase">NameCase</a>
-                    - This package allows you to convert names into the correct case where possible.
-                  </li>
-                  <li>
-                    <div class="git-star"><a class="github-button" href="https://github.com/tamtamchik/composer-transfer" data-icon="octicon-star" data-count-href="/tamtamchik/composer-transfer/stargazers" data-count-api="/repos/tamtamchik/composer-transfer#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star tamtamchik/composer-transfer on GitHub">Star</a></div>
-                    <a href="https://github.com/tamtamchik/composer-transfer">Composer Transfer</a>
-                    - <a href="https://transfer.sh">https://transfer.sh</a> brought to Composer community.
-                  </li>
-              </ul>
-          </article>
-      </div>
-  </section>
-
-  <section>
-      <header class="major">
-          <h2><a href="/readings" title="Click to see more">Readings</a></h2>
-      </header>
-
-      <div class="row">
-
-        {% for month in site.data.books limit:2 %}
-        <article class="12u 12u(small)">
-
-          <h4 class="date">{{ month.date | date: "%b, %Y" }}</h4>
-
-          <ul>
-          {% for book in month.books %}
-            <li><strong>{{ book.title }}</strong> - {{ book.author }} <em>({{ book.lang }})</em></li>
-          {% endfor %}
-          </ul>
-
-        </article>
-        {% endfor %}
-
-      </div>
-  </section>
-
-  <section>
-      <header class="major">
-          <h2><a href="/games" title="Click to see more">Games</a></h2>
-      </header>
-
-      <div class="row">
-
-        {% for month in site.data.games limit:2 %}
-        <article class="12u 12u(small)">
-
-          <h4 class="date">{{ month.date | date: "%b, %Y" }}</h4>
-
-          <ul>
-          {% for game in month.games %}
-            <li><strong>{{ game.name }}</strong></li>
-          {% endfor %}
-          </ul>
-
-        </article>
-        {% endfor %}
-
-      </div>
-  </section>
-
 </div>
