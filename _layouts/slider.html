@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Presentation By laidingqing</title>
+    <meta name="description" content="Speaker notes by laidingqing">
+    <meta name="author" content="lai dingqing">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+    <link rel="stylesheet" href="/bower_components/reveal.js/css/reveal.css">
+    <link rel="stylesheet" href="/bower_components/reveal.js/css/theme/black.css" id="theme">
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        {{ content }}
+      </div>
+    </div>
+    <script src="/bower_components/reveal.js/lib/js/head.min.js"></script>
+    <script src="/bower_components/reveal.js/js/reveal.js"></script>
+    <script>
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        transition: 'slide', // none/fade/slide/convex/concave/zoom
+        dependencies: [
+          { src: '/bower_components/classlist/classList.min.js', condition: function() { return !document.body.classList; } },
+          { src: '/bower_components/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: '/bower_components/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: '/bower_components/reveal.js/plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); },
+            callback: function() { hljs.initHighlightingOnLoad(); } },
+          { src: '/bower_components/reveal.js/plugin/zoom-js/zoom.js', async: true },
+          { src: '/bower_components/reveal.js/plugin/notes/notes.js', async: true },
+          { src: '/bower_components/reveal.js/plugin/math/math.js', async: true }
+        ]
+      });
+
+    </script>
+  </body>
+  </html>
