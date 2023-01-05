@@ -1,12 +1,12 @@
 ---
 # Display name
-title: Nelson Bighetti
+title: AsOne
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position
-role: Python Instructor
+role: CTO、架构师、讲师、布道师、Up主
 
 # Organizations/Affiliations
 organizations:
@@ -14,7 +14,7 @@ organizations:
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: 我的研究兴趣包括编程语言(Java/Golang/Kotlin/Rust/Python/Javascript)、云平台架构、敏捷开发、数据分析、Web开发.
 
 interests:
   - Artificial Intelligence
@@ -40,13 +40,10 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:test@example.org'
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
+    link: 'mailto:laidingqing@me.com'
   - icon: github
     icon_pack: fab
-    link: https://github.com/gcushen
+    link: https://github.com/laidingqing
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ''
