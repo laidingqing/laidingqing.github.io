@@ -2,17 +2,17 @@
 widget: hero
 headless: true
 weight: 10
-title: Online Course Template
+title: 云原生微服务开发
 hero_media: teacher.png
 design:
   background:
     gradient_angle: 0
-    gradient_start: 'rgb(224,223,255)'
+    gradient_start: 'rgb(247,247,247)'
     gradient_end: 'rgb(153,238,255)'
     text_color_light: false
 cta:
   url: '#courses'
-  label: Explore our courses
+  label: 进入系统课程
   icon_pack: fas
   icon: user-graduate
 cta_alt:
@@ -26,8 +26,12 @@ advanced:
 
 <br>
 
-Published with the [Wowchemy Website Builder](https://wowchemy.com/) for Hugo.
+KnmDev.com(Kubernate Native Microservice Develope) 是您成为优秀后端开发人员的理想起点，您将通过实践学习，了解云原生开发微服务系列中所充满的技术挑战。
 
-Introduce your courses here.
+您将学习:
 
-<a class="github-button" href="https://github.com/wowchemy/wowchemy-hugo-themes" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star Wowchemy Website Builder for Hugo">Star Wowchemy Website Builder for Hugo</a><br><a class="github-button" href="https://github.com/wowchemy/starter-hugo-online-course" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star the Online Course template">Star the Online Course template</a><script async defer src="https://buttons.github.io/buttons.js"></script>
+* Java/Kotlin/Golang
+* 云原生开发的语言/技术特性
+* 容器与云平台实操
+* 应用框架构建云原生微服务
+* 项目持续集成与交付
