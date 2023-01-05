@@ -1,0 +1,45 @@
+# Navigation Links
+#   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
+#     desired widget in your `content/home/` folder.
+#   The weight parameter defines the order that the links will appear in.
+
+main:
+  - name: 首页
+    url: '/'
+    weight: 10
+  - name: 云原生开发教程
+    weight: 20
+    identifier: courses
+  - name: 云原生开发介绍
+    PageRef: course/introduction/_index.md
+    weight: 10
+    parent: courses
+  - name: 编程语言基础
+    PageRef: course/part-1/_index.md
+    weight: 10
+    parent: courses
+  - name: 容器与云平台
+    PageRef: course/part-2/_index.md
+    weight: 20
+    parent: courses
+  - name: 微服务开发
+    PageRef: course/part-3/_index.md
+    weight: 30
+    parent: courses
+  - name: 持续集成与交付
+    PageRef: course/part-4/_index.md
+    weight: 40
+    parent: courses
+  - name: 可难测与安全
+    PageRef: course/part-5/_index.md
+    weight: 50
+    parent: courses
+  - name: 文章
+    PageRef: post/_index.md
+    weight: 30
+  - name: 电子书
+    PageRef: post/_index.md
+    weight: 30
+  - name: 关于我们
+    PageRef: contact/index.md
+    weight: 60
