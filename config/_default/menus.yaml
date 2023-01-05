@@ -37,9 +37,11 @@ main:
   - name: 文章
     PageRef: post/_index.md
     weight: 30
+    identifier: posts
   - name: 电子书
-    PageRef: post/_index.md
+    PageRef: ebook/_index.md
     weight: 30
+    identifier: ebook
   - name: 关于我们
     PageRef: contact/index.md
     weight: 60

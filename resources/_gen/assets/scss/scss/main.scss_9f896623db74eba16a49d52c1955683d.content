@@ -9642,3 +9642,13 @@ div.chart {
 
 .cta-group {
   justify-content: center; }
+
+@media only screen and (min-width: 1001px) {
+  .universal-wrapper {
+    max-width: 1290px;
+    width: 1290px;
+    margin: 0 auto 0 auto; }
+  .article-container {
+    max-width: 1290px;
+    padding: 0 20px 0 20px;
+    margin: 0 auto 0 auto; } }
