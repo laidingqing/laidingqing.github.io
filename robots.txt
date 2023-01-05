@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: knmdev.com/sitemap.xml
